@@ -10,14 +10,11 @@ body {
     align-items: center; 
     height: 100vh; 
 }
-
 .error-container {
     text-align: center; 
     width: 100%; 
     max-width: 600px; 
 }
-
-
 .error-header {
     background-color: #c0392b;
     padding: 20px;
