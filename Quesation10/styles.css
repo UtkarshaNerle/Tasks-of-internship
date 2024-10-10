@@ -1,0 +1,22 @@
+body{
+    font-family: Arial,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    margin: 0;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    max-width: 600px;
+    width:100%;
+}
+.box{
+    padding: 20px;
+    border: 1px solid #dddddd;
+    font-size: 16px;
+    text-align: center;
+}
