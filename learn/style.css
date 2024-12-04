@@ -21,8 +21,18 @@ a{
 input{
     color: black;
 }
-.contentBox {
+.contentBox{
     height: 100;
     width: 100;
+    border: 2px solid black;
+    display: inline block;
+}
+#content{
+    height: 500px;
+}
 
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
 }
